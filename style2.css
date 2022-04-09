@@ -1,0 +1,197 @@
+a#logo{
+  float: left;
+  margin: 40px;
+  margin-bottom: 0px;
+  height: 135px;
+  position: absolute;
+}
+div#header{
+  background-color: lightgray;
+  background-image: url('http://skipedia.ddns.net/img/head.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1{
+  text-align: center;
+  font-family: forte;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 100px;
+  float: inherit;
+}
+h2{
+  padding: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: serif;
+  font-size: 34px;
+}
+h3{
+  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: serif;
+  font-size: 30px;
+}
+h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: serif;
+  font-size: 26px;
+}
+nav{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  transition: background-color 5s;
+}
+ul{
+  padding-left: 40px;
+}
+nav div{
+  text-align: center;
+  width: 100%;
+}
+nav div a{
+  text-decoration: none;
+  flex-wrap: nowrap;
+  opacity:
+}
+nav div a p{
+  padding: 0px;
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 4.5px solid lightgray;
+  flex-wrap: nowrap;
+}
+nav div a p{
+  color: white;
+}
+nav div a p:hover{
+  color: lightblue;
+  border-bottom: 4.5px solid lightblue;
+}
+nav div ul {
+  padding: 0px;
+  display: none;
+  position: absolute;
+  margin: 0px;
+  width: 20%;
+  background-color: lightgray;
+}
+nav div:hover ul {
+  display: block;
+}
+nav div ul li{
+  width: 100%;
+  padding: 0px;
+  list-style: none;
+}
+nav div ul li a{
+  text-decoration: none;
+}
+nav div ul li a p{
+  width: 100%;
+  padding: 0px;
+  border: 0px;
+  font-size: 16px;
+}
+nav div ul li a p:hover{
+  background-color: gray;
+  border: 0px;
+}
+nav div ul li a p{
+  color: white;
+}
+div#main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightgray;
+  background-image: url("http://skipedia.ddns.net/img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div#text{
+  min-height:100vh;
+  width:760px;
+  background-color:white;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+div#text a:link{
+  color: darkgray;
+}
+div#text a:visited{
+  color: darkgray;
+}
+div#text a:active{
+  color: darkgray;
+}
+div#text a:hover{
+  color: gray;
+}
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: -218px;
+}
+
+div.lightblue{
+  padding: 10px;
+  background-color: rgb(235,250,255);
+  border-top: 3px solid lightgray;
+}
+div.white{
+  padding: 10px;
+  background-color: white;
+  border-top: 3px solid lightgray;
+}
+div.lightblue div img{
+  margin: 10px;
+  float: right;
+  border-radius: 20px;
+}
+div.white div img{
+  margin: 10px;
+  float: right;
+  border-radius: 20px;
+}
+div#footer{
+  border-top: 4.5px solid darkgray;
+}
+footer div#footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+}
+div#left{
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+div#right{
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: right;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
